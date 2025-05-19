@@ -9,6 +9,7 @@
     "start": "node app.js",
     "test": "jest",
     "eslint": "eslint './**/*.{js,jsx}'",
+    "lint": "npm run eslint",
     "build": "webpack --mode production",
     "test:e2e": "npx cypress run"
   },
